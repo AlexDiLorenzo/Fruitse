@@ -5,7 +5,7 @@ clear all;
 
 %% Lecture des images
 rep = sprintf('../../images/apple/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -15,7 +15,7 @@ for n = 1:nbIm
     NGapple(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/apricot/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -25,7 +25,7 @@ for n = 1:nbIm
     NGapricot(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/banana/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -35,7 +35,7 @@ for n = 1:nbIm
     NGbanana(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/blueberry/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -45,7 +45,7 @@ for n = 1:nbIm
     NGblueberry(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/grape/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -55,7 +55,7 @@ for n = 1:nbIm
     NGgrape(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/kiwi/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -65,7 +65,7 @@ for n = 1:nbIm
     NGkiwi(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/orange/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -75,7 +75,7 @@ for n = 1:nbIm
     NGorange(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/pear/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
@@ -85,7 +85,7 @@ for n = 1:nbIm
     NGpear(n) = mean(im2gray(img),'all');
 end
 rep = sprintf('../../images/strawberry/');
-list=dir([rep '*.JPG']);
+list=dir([rep '*.jpg']);
 nbIm=numel(list);
 figure
 for n = 1:nbIm
