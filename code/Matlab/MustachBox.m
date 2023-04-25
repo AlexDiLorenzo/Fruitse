@@ -10,7 +10,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    apple{n} = img;
+    %apple{n} = img;
     imshow(img,[]); 
     NGapple(n) = mean(im2gray(img),'all');
 end
@@ -20,7 +20,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    apricot{n} = img;
+    %apricot{n} = img;
     imshow(img,[]); 
     NGapricot(n) = mean(im2gray(img),'all');
 end
@@ -30,7 +30,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    banana{n} = img;
+    %banana{n} = img;
     imshow(img,[]); 
     NGbanana(n) = mean(im2gray(img),'all');
 end
@@ -40,7 +40,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    blueberry{n} = img;
+    %blueberry{n} = img;
     %imshow(img,[]); 
     NGblueberry(n) = mean(im2gray(img),'all');
 end
@@ -50,7 +50,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    grape{n} = img;
+    %grape{n} = img;
     imshow(img,[]); 
     NGgrape(n) = mean(im2gray(img),'all');
 end
@@ -60,7 +60,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    kiwi{n} = img;
+    %kiwi{n} = img;
     imshow(img,[]);
     NGkiwi(n) = mean(im2gray(img),'all');
 end
@@ -70,7 +70,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    orange{n} = img;
+    %orange{n} = img;
     imshow(img,[]); 
     NGorange(n) = mean(im2gray(img),'all');
 end
@@ -80,7 +80,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    pear{n} = img;
+    %pear{n} = img;
     imshow(img,[]); 
     NGpear(n) = mean(im2gray(img),'all');
 end
@@ -90,7 +90,7 @@ nbIm=numel(list);
 figure
 for n = 1:nbIm
     img = double(imread(sprintf('%s%s',rep,list(n).name)))/255;
-    strawberry{n} = img;
+    %strawberry{n} = img;
     imshow(img,[]); 
     NGstrawberry(n) = mean(im2gray(img),'all');
 end
