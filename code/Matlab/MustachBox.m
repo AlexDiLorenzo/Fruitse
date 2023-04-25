@@ -94,6 +94,8 @@ for n = 1:nbIm
     imshow(img,[]); 
     NGstrawberry(n) = mean(im2gray(img),'all');
 end
+
+%% Création des boîtes à moustaches
 moustaches = NaN(226,9);
 moustaches(1:size(NGapple,2),1) = NGapple;
 moustaches(1:size(NGapricot,2),2) = NGapricot;
@@ -105,9 +107,3 @@ moustaches(1:size(NGpear,2),7) = NGpear;
 moustaches(1:size(NGorange,2),8) = NGorange;
 moustaches(1:size(NGstrawberry,2),9) = NGstrawberry;
 boxplot(moustaches)
-
-
-
-
-
-
