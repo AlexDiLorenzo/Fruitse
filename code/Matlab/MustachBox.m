@@ -94,7 +94,7 @@ for n = 1:nbIm
     imshow(img,[]); 
     NGstrawberry(n) = mean(im2gray(img),'all');
 end
-moustaches = NaN(538,9);
+moustaches = NaN(226,9);
 moustaches(1:size(NGapple,2),1) = NGapple;
 moustaches(1:size(NGapricot,2),2) = NGapricot;
 moustaches(1:size(NGbanana,2),3) = NGbanana;
